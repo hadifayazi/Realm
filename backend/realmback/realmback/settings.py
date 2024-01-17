@@ -167,3 +167,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 
 FILE_UPLOAD_PERMISSIONS = 0o640
+
+
+USER_AUTH_MODEL = 'accounts.UserAccount'
