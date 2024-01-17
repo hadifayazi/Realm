@@ -9,6 +9,9 @@ User = get_user_model()
 
 
 class UserRegistrationView(APIView):
+    """
+    Register/create a new user .
+    """
     permission_classes = [permissions.AllowAny]
 
     def post(self, request, *args, **kwargs):
